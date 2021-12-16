@@ -8,15 +8,13 @@ import os
 from sklearn.svm import SVC
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import ShuffleSplit
-from tensorflow import keras
-import tensorflow as tf
+# from tensorflow import keras
+# import tensorflow as tf
 import numpy as np
 import sklearn
-print(tf.__version__)
 
-sess = tf.compat.v1.Session()
+# sess = tf.compat.v1.Session()
 
-print(tf.__version__)
 AMUSEMENTIDX = 1
 BaseLine = 0
 Stress = 2
